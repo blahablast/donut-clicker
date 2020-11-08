@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>blahablast donuts</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><button onclick="about()">About Us</button></li>
+            <li><button onclick="showDev()">The Dev</button></li>
+            <li>
+              <button>
+                <a
+                  href="https://orteil.dashnet.org/cookieclicker/"
+                  target="_blank"
+                  >Inspiration</a
+                >
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="hidden-texts-container">
+        <section class="about-us hidden-texts" hidden>
+          <h3>About Us</h3>
+          <p>
+            blahablast donuts is a tribute to one of my favorite places in the
+            world, Brewnuts! Thank you for existing and providing Cleveland with
+            amazing donuts!
+          </p>
+        </section>
+
+        <section class="dev hidden-texts" hidden>
+          <h3>The Developer</h3>
+          <p>
+            My name is Sam Blaha and I'm a Software Developer who spends way too
+            much time on styling.
+          </p>
+          <div class="a-container">
+            <p>
+              <a href="https://blahablast.io/" target="_blank">Portfolio</a>
+            </p>
+            <p>
+              <a href="https://github.com/blahablast" target="_blank">Github</a>
+            </p>
+          </div>
+        </section>
+
+        <section class="hidden-texts" hidden>
+          <h3>Inspiration</h3>
+          <p>This website is inspired by the original Cookie Clicker Game</p>
+          <button>
+            <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank"
+              >Inspiration</a
+            >
+          </button>
+        </section>
+      </div>
+
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <button class="make-donut side-nav__item">
+              Click to Make Donuts!
+            </button>
+            <button class="ac-btn side-nav__item" disabled>
+              Buy AutoClicker!
+            </button>
+            <button class="m-btn side-nav__item" disabled>
+              Buy Multiplier!
+            </button>
+          </ul>
+        </nav>
+
+        <main class="main-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="img/donuts1.jpg"
+                alt="donuts on a stool"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/donut4.jpg"
+                alt="dontus and animal crackers"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/donuts3.jpg"
+                alt="donuts and beer"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="heading">
+            <h1><span>blahablast</span> donut shop</h1>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <div class="desc-title">Donut Count :</div>
+              <div class="donut-count">0</div>
+              <div class="cost">
+                <span>Per Click : </span>
+                <div class="donut-value">1</div>
+              </div>
+              <hr />
+              <div class="desc-title">Number of Auto Clickers :</div>
+              <div class="ac-count">0</div>
+              <div class="cost">
+                <span>Cost :</span>
+                <div class="ac-cost">100</div>
+              </div>
+              <hr />
+              <div class="desc-title">Number of Donut Multipliers :</div>
+              <div class="m-count">0</div>
+              <div class="cost">
+                <span>Cost : </span>
+                <div class="m-cost">10</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="button-container">
+            <button class="reset">Reset</button>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="/src/js/DonutMaker.js"></script>
+    <script src="src/js/app.js"></script>
+  </body>
+</html>

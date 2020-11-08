@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ff9ace;
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  background-color: #81cdfc;
+  margin: 8rem 8rem;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+}
+
+header nav ul {
+  height: 9rem;
+  background-color: #81cdfc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav ul button {
+  font-size: 2rem;
+  padding: 0.7rem 4rem;
+  font-family: "Dancing Script", cursive;
+  cursor: pointer;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  border-color: #fff;
+  color: #505050;
+}
+
+header nav ul button a {
+  text-decoration: none;
+  color: #505050;
+}
+
+header nav ul button:focus {
+  outline: none;
+}
+
+.hidden-texts-container {
+  display: flex;
+}
+
+.hidden-texts {
+  background-color: #ff9ace;
+  border: 1px solid white;
+  width: 30rem;
+  height: 20rem;
+  padding: 2rem;
+  left: 50%;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+}
+
+.hidden-texts h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  border-bottom: #81cdfc 1px solid;
+  padding-bottom: 1rem;
+}
+
+.hidden-texts p {
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.a-container {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-evenly;
+}
+
+.hidden-texts a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid white;
+  padding: 0.3rem 1rem;
+  background-color: #fff;
+  color: #81cdfc;
+  font-weight: 500;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #abddfc;
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.side-nav {
+  font-size: 1.4rem;
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30rem;
+}
+
+.side-nav__item {
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  font-family: "Dancing Script", cursive;
+  cursor: pointer;
+  border-color: #fff;
+  color: #505050;
+}
+
+.side-nav__item:focus {
+  outline: none;
+}
+
+.main-view {
+  flex: 1;
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery__photo {
+  display: block;
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 2.3rem;
+  border-top: 0.1rem solid #fff;
+  border-bottom: 0.1rem solid #fff;
+  color: #fff;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to bottom, #c8d7e0, #81cdfc);
+}
+
+.heading span {
+  color: #fc7fbf;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+
+.detail {
+  font-size: 1.4rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.desc-title {
+  font-family: "Quicksand", sans-serif;
+  color: #fd72ba;
+}
+
+.description div {
+  padding: 0.5rem;
+  font-size: 2.5rem;
+}
+
+hr {
+  margin: 1.2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cost {
+  margin-top: 2rem;
+  display: flex;
+  // text-align: center;
+  justify-content: center;
+}
+
+.cost span {
+  padding-right: 1rem;
+  color: #fc7fbf;
+}
+
+.button-container button {
+  font-size: 2.2rem;
+  padding: 0.8rem 7rem;
+  margin: 2rem;
+  font-family: "Dancing Script", cursive;
+  cursor: pointer;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  border-color: #fff;
+  color: #505050;
+}
+
+.button-container button:focus {
+  outline: none;
+}
